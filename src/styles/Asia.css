@@ -1,0 +1,12 @@
+.asiaHeader {
+  height: 150px;
+  padding: 20px;
+}
+.asiaBackground {
+  background-image: url('./images/asiaBackground.jpeg');
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

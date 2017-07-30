@@ -1,0 +1,17 @@
+.southAmericaHeader {
+  height: 150px;
+  padding: 20px;
+}
+
+.southAmericaBackground {
+  background-image: url('./images/southAmericaBackground.jpeg');
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.southAmericaTitle {
+  color: white;
+}

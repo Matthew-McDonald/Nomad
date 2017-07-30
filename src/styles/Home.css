@@ -1,0 +1,28 @@
+.Home {
+  text-align: center;
+}
+
+.Home-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Home-intro {
+  font-size: large;
+}
+
+.Header {
+  position: fixed;
+  width: 100vw;
+  text-align: right;
+}
+
+.backgroundMain {
+  background-image:url('./images/homeBackground.jpg');
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

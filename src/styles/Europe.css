@@ -1,0 +1,27 @@
+.europeHeader {
+  height: 150px;
+  padding: 20px;
+  opacity: 0;
+}
+.europeBackground {
+  background-image: url('./images/europeHeader.jpeg');
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.europeCardList {
+  text-align: center;
+  margin-left: 10vw;
+  padding-top: 10vh;
+}
+.tripCard {
+  margin: 5px;
+}
+
+.europeTitle {
+  color: white;
+  margin-left: 10px;
+  padding-top: 10px;
+}

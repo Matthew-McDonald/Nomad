@@ -7,9 +7,10 @@ class NavBar extends Component {
     return (
       <div>
         <nav>
-          <NavLink activeClassName="selected" className="nav-link" exact to="/">Main</NavLink>
-          <NavLink activeClassName="selected" className="nav-link" exact to="/page_one">Europe</NavLink>
-          <NavLink activeClassName="selected" className="nav-link" exact to="/page_two">Asia</NavLink>
+          <NavLink activeClassName="selected" className="nav-link" exact to="/">Home</NavLink>
+          <NavLink activeClassName="selected" className="nav-link" exact to="/Europe">Europe</NavLink>
+          <NavLink activeClassName="selected" className="nav-link" exact to="/SouthAmerica">South America</NavLink>
+          <NavLink activeClassName="selected" className="nav-link" exact to="/Asia">Asia</NavLink>
         </nav>
       </div>
     )

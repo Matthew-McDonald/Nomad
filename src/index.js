@@ -9,10 +9,12 @@ import "./styles/index.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //import Components
-import App from "./components/App.jsx";
-import PageOne from "./components/page_one.jsx"
-import PageTwo from "./components/page_two.jsx"
-import BaseLayout from "./components/base-layout.jsx"
+import Home from "./components/Pages/Home.jsx";
+import Europe from "./components/Pages/europe.jsx";
+import SouthAmerica from "./components/Pages/south_america.jsx";
+import Asia from "./components/Pages/asia.jsx";
+
+import BaseLayout from "./components/Layouts/base-layout.jsx"
 
 //import IDK
 import registerServiceWorker from "./registerServiceWorker";
@@ -21,13 +23,13 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route path="/page_two" component={PageTwo} />
-        <Route path="/page_one" component={PageOne} />
-        <Route path="/" component={App} />
+        <Route path="/Asia" component={Asia} />
+        <Route path="/SouthAmerica" component={SouthAmerica} />
+        <Route path="/Europe" component={Europe} />
+        <Route path="/" component={Home} />
       </Switch>
     </BaseLayout>
-  </BrowserRouter>
-  ,
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
