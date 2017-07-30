@@ -7,8 +7,8 @@ class NavBar extends Component {
     return (
       <div>
         <nav className = "navBar">
-          <div></div>
-          <div>
+          <div className="navGridOne"></div>
+          <div className="navGridTwo">
           <NavLink activeClassName="selected" className="nav-link" exact to="/">Home</NavLink>
           <NavLink activeClassName="selected" className="nav-link" exact to="/Europe">Europe</NavLink>
           <NavLink activeClassName="selected" className="nav-link" exact to="/SouthAmerica">South America</NavLink>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import tripData from '../tripData.js'
+
 import EuropeCard from './europeCard.jsx'
 
 import "../../styles/Europe.css";

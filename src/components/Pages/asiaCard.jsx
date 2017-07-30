@@ -22,10 +22,12 @@ class AsiaCard extends Component {
                     </h5>
                   </div>
                   <div className="card-text">
+                    <p>Price: {trip.price}</p>
                     <p>
                       Trip Info: {trip.description}
                     </p>
                   </div>
+                  <button>Book Now!</button>
                 </div>
               </div>
               </div>

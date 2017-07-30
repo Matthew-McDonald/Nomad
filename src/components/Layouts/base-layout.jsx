@@ -16,10 +16,10 @@ class BaseLayout extends Component {
         <footer>
           <div className="footerWrapper">
           <div className="contactUs">
-            <a href="/ContactUs">Contact Us</a>
+            <a className="contactUsLink"href="/ContactUs">Contact Us</a>
           </div>
           <div className="aboutUs">
-            <a href="/AboutUs">About Us</a>
+            <a className="aboutUsLink"href="/AboutUs">About Us</a>
           </div>
           </div>
         </footer>

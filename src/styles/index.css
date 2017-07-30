@@ -21,12 +21,17 @@ footer {
   justify-content: center;
 }
 .navBar {
-  display:
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.navGridTwo {
+  grid-column-end: end;
 }
 
 .nav-link {
   color:white;
   font-family: fantasy;
+  width: 200px;
 }
 
 .footerWrapper {
@@ -40,6 +45,13 @@ footer {
   padding-right: 5px;
   height: 23px;
 }
+.contactUsLink {
+  color: white;
+}
 .aboutUs {
   padding-left: 5px;
+  color: white;
+}
+.aboutUsLink {
+  color:white;
 }
