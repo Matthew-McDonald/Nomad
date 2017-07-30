@@ -6,9 +6,9 @@ class Home extends Component {
     return (
         <div className="Home backgroundMain">
           <div className="Home-header">
-            <h2>Home</h2>
+            <h1>Nomad</h1>
           </div>
-          <p className="Home-intro">You on the Main Page my man!</p>
+          <p className="Home-intro">Bringing the community together through travel</p>
         </div>
 
     );

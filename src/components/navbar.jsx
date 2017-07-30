@@ -6,11 +6,14 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <nav>
+        <nav className = "navBar">
+          <div></div>
+          <div>
           <NavLink activeClassName="selected" className="nav-link" exact to="/">Home</NavLink>
           <NavLink activeClassName="selected" className="nav-link" exact to="/Europe">Europe</NavLink>
           <NavLink activeClassName="selected" className="nav-link" exact to="/SouthAmerica">South America</NavLink>
           <NavLink activeClassName="selected" className="nav-link" exact to="/Asia">Asia</NavLink>
+          </div>
         </nav>
       </div>
     )

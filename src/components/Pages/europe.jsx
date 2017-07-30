@@ -16,9 +16,5 @@ class Europe extends Component {
     );
   }
 }
-console.log(tripData.title)
-export default Europe;
 
-// <div className="europeHeader">
-//   <h1>Europe - Page One</h1>
-// </div>
+export default Europe;

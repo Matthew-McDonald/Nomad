@@ -14,11 +14,13 @@ class BaseLayout extends Component {
         {this.props.children}
         </div>
         <footer>
-          <div>
-            <a>Contact Us</a>
+          <div className="footerWrapper">
+          <div className="contactUs">
+            <a href="/ContactUs">Contact Us</a>
           </div>
-          <div>
-            <a>About Us</a>
+          <div className="aboutUs">
+            <a href="/AboutUs">About Us</a>
+          </div>
           </div>
         </footer>
       </div>

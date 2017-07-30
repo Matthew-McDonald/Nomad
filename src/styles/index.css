@@ -17,8 +17,29 @@ footer {
   margin-top: -25px;
   grid-row-start: 2;
   grid-row-end: 3;
+  height: 40px;
+  justify-content: center;
+}
+.navBar {
+  display:
 }
 
 .nav-link {
   color:white;
+  font-family: fantasy;
+}
+
+.footerWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 8px;
+}
+.contactUs {
+  text-align: right;
+  border-right: 1px solid black;
+  padding-right: 5px;
+  height: 23px;
+}
+.aboutUs {
+  padding-left: 5px;
 }
