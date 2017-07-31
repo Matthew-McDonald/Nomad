@@ -8,13 +8,13 @@ body {
 }
 
 .selected {
-  color: red;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 footer {
-  background-color: grey;
-  margin-top: -25px;
+  background-color:rgba(0,0,0,0.4);
+  margin-top: -40px;
   grid-row-start: 2;
   grid-row-end: 3;
   height: 40px;

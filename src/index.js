@@ -14,9 +14,9 @@ import Europe from "./components/Pages/europe.jsx";
 import SouthAmerica from "./components/Pages/south_america.jsx";
 import Asia from "./components/Pages/asia.jsx";
 import AboutUs from "./components/Pages/AboutUs.jsx";
-import ContactUs from './components/Pages/ContactUs.jsx';
+import ContactUs from "./components/Pages/ContactUs.jsx";
 
-import BaseLayout from "./components/Layouts/base-layout.jsx"
+import BaseLayout from "./components/Layouts/base-layout.jsx";
 
 //import IDK
 import registerServiceWorker from "./registerServiceWorker";
@@ -25,11 +25,11 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route path="/AboutUs" component={AboutUs} />
-        <Route path="/ContactUs" component={ContactUs} />
         <Route path="/Asia" component={Asia} />
         <Route path="/SouthAmerica" component={SouthAmerica} />
         <Route path="/Europe" component={Europe} />
+        <Route path="/AboutUs" component={AboutUs} />
+        <Route path="/ContactUs" component={ContactUs} />
         <Route path="/" component={Home} />
       </Switch>
     </BaseLayout>

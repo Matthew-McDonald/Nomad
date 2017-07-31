@@ -1,0 +1,40 @@
+.contactUsBody {
+  text-align: center;
+  background-image: url('./images/contactUsBackground.jpeg');
+  height: 730px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactUsTitle {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  font-family: fantasy;
+}
+
+.contactUsCard {
+  background-color:rgba(0,0,0,0.4);
+  width: 30vw;
+  height: 23vw;
+}
+
+.questionTextArea {
+  height: 90px;
+  width: 300px;
+  outline: none;
+  font-family: fantasy;
+}
+.formTextArea {
+  width: 300px;
+  outline: none;
+  font-family: fantasy;
+}
+.formSubmitButton {
+  font-family: fantasy;
+  border-radius: 3px;
+}
